@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 .section{
     background-color: antiquewhite;
@@ -58,3 +59,121 @@
         font-size:32px;
     }
 }
+
+/* About section*/
+.main_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+.main_container h1{
+    font-size: 110px;
+    color: #000;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #968080;
+    margin-bottom: 32px;
+}
+.main_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 700px;
+}
+.main_text{
+    padding-right: 20px;
+}
+.main_text h2{
+    font-size: 48px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+.main_text p{
+    line-height: 2.3;
+}
+.main_image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_img{
+    width: 500px;
+    height: 610px;
+}
+/* Services Css*/
+.services{
+    background-color: #000;
+    color: #ffff;
+    position: relative;
+}
+.services_container{
+    background: #0000;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+}
+.services_grid{
+    background: #000;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* grid-template-rows: 700px; */
+}
+.services_container{
+    font-size: 50px;
+    
+}
+.services_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 50px;
+}
+.services_content{
+    display: flex;
+    align-items: flex-start;
+
+}
+.services_content img{
+    margin-right: 50px;
+    height: 200px;
+}
+.services_desc h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.services_desc p{
+    line-height: 2;
+    font-size: 20px;
+}
+.macbook{
+    height: 900px;
+
+}
+.yellow_bar{
+    position: absolute;
+    background-color: yellow;
+    height: 80px;
+    bottom: -40px;
+    right: 0;
+    width: 100%;
+    color: #000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.yellow_bar img{
+    margin: 0 40px;
+    height: 50px;
+}
+.yellow_bar p{
+    margin-right: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
